@@ -1,7 +1,7 @@
 import time
 import logging
-from core.config import Settings
-from core.sync_manager import SyncManager
+from src.config import Settings
+from src.sync_manager import SyncManager
 
 logging.basicConfig(level=Settings.LOG_LEVEL)
 logger = logging.getLogger(__name__)
