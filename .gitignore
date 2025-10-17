@@ -1,0 +1,21 @@
+# Ambiente virtual
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Arquivos de configuração local
+.env
+
+# Logs
+*.log
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Outros arquivos temporários
+.DS_Store
+Thumbs.db
